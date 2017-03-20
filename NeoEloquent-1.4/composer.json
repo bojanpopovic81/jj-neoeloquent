@@ -1,5 +1,5 @@
 {
-    "name": "vinelab/neoeloquent",
+    "name": "jelena-dragojlovic/jj-neoeloquent",
     "description": "Laravel wrapper for the Neo4j graph database REST interface",
     "keywords": ["laravel", "neo4j", "graph", "database", "neoeloquent"],
     "license": "MIT",
@@ -29,7 +29,7 @@
             "tests/TestCase.php"
         ],
         "psr-0": {
-            "Vinelab\\NeoEloquent\\": "src/"
+            "jelena-dragojlovic\\jj-neoeloquent\\NeoEloquent-1.4\\Vinelab\\NeoEloquent\\": "src/"
         }
     },
     "minimum-stability": "stable"
