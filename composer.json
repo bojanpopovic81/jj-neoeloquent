@@ -22,7 +22,10 @@
         "mockery/mockery": "0.9.*"
     },
     "repositories": [
-
+        {
+            "type": "vcs",
+            "url": "https://github.com/jelena-dragojlovic/jj-neoeloquent"
+        }
     ],
     "autoload": {
         "classmap": [
