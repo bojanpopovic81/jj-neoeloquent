@@ -23,8 +23,21 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/jelena-dragojlovic/jj-neoeloquent"
+            "type": "package",
+            "package": {
+                "name": "jelena-dragojlovic/jj-neoeloquent",
+                "version": "master",
+                "source": {
+                    "url": "git://github.com/jelena-dragojlovic/jj-neoeloquent.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-0" : {
+                        "jelena-dragojlovic/jj-neoeloquent" : "src"
+                    }
+                }
+            }
         }
     ],
     "autoload": {
