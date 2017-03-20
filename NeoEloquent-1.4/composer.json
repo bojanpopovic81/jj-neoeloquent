@@ -29,7 +29,7 @@
             "tests/TestCase.php"
         ],
         "psr-0": {
-            "jelena-dragojlovic\\jj-neoeloquent\\NeoEloquent-1.4\\Vinelab\\NeoEloquent\\": "src/"
+            "jelena-dragojlovic\\jj-neoeloquent": "NeoEloquent-1.4/"
         }
     },
     "minimum-stability": "stable"
